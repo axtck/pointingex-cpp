@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     cout << endl;
 
     // array declaration name is pointer to first value
-    cout << "Pointer to array declaration name: *scores: " << *scores << endl;
+    cout << "Pointer to array declaration name: *scores: " << *scores << "." << endl;
     for (int i = 0; i < num_scores; i++)
     {
         cout << *(scores + i) << " ";
