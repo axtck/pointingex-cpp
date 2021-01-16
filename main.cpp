@@ -22,5 +22,19 @@ int main(int argc, char *argv[])
     cout << "Wrong pointer arithmetic: *pscores + 1: " << *pscores + 1 << "." << endl;
     cout << "Right pointer arithmetic: *(pscores + 1): " << *(pscores + 1) << "." << endl;
 
+    for (int i = 0; i < num_scores; i++)
+    {
+        cout << *(pscores + i) << " "; // pointer access (faster)
+    }
+
+    cout << endl;
+
+    // array declaration name is pointer to first value
+    cout << "Pointer to array declaration name: *scores: " << *scores << endl;
+    for (int i = 0; i < num_scores; i++)
+    {
+        cout << *(scores + i) << " ";
+    }
+
     return 0;
 }
