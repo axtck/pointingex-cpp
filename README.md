@@ -3,6 +3,7 @@
 ***C or C++ (in this case) pointer exercise***
 
 ---
+
 ## Usage 
 
 ```bash

@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
     cout << "Pointer addres: " << pscores << "." << endl;
     cout << "Value from dereferenced pointer: " << *pscores << "." << endl;
 
+    // pointer arithmetic
     cout << "Wrong pointer arithmetic: *pscores + 1: " << *pscores + 1 << "." << endl;
     cout << "Right pointer arithmetic: *(pscores + 1): " << *(pscores + 1) << "." << endl;
 
