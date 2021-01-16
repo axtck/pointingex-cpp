@@ -36,5 +36,7 @@ int main(int argc, char *argv[])
         cout << *(scores + i) << " ";
     }
 
+    cout << endl;
+
     return 0;
 }
